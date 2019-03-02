@@ -1,0 +1,119 @@
+.right-main {
+    width: 45%;
+    height: 100%;
+}
+
+.right-main .main-nav {
+    width: 80%;
+    height: 90px;
+    margin-top: 80px;
+    margin-left: 5%;
+    border-top: 1px solid rgba(126, 126, 126, 0.44);
+    border-bottom: 1px solid rgba(126, 126, 126, 0.44);
+}
+
+.main-nav ul {
+    list-style: none;
+    width: 125%;
+    display: flex;
+}
+
+.main-nav li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 4.5%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    color: #646464;
+}
+
+.main-nav a:link, 
+.main-nav a:visited {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+    padding-bottom: 3px;
+    border-bottom: 2.5px solid transparent;
+}
+
+.main-nav .active-link:link,
+.main-nav .active-link:visited {
+    border-bottom: 2.5px solid #108757;
+    padding-bottom: 3px;
+}
+
+.main-nav a:hover, 
+.main-nav a:active {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2.5px solid #108757;
+    padding-bottom: 3px;
+}
+
+.right-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-main .front-main {
+    width: 40%;
+}
+
+
+.front-main h1 {
+    text-align: left;
+    margin-left: 12%;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    width: 200%;
+    color: #108757;
+    font-size: 2.3rem;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.front-main p {
+    margin-left: 12%;
+    margin-top: 30px;
+    width: 200%;
+    font-size: 1.2rem;
+}
+
+.right-main footer {
+    width: 80%;
+    height: 80px;
+    margin-top: 450px;
+    margin-left: 5%;
+    background-color: inherit;
+    position: relative;
+    border-top: 1px solid rgba(126, 126, 126, 0.44);
+}
+
+.right-main footer p {
+    position: absolute;
+    bottom: 35px;
+    background-color: inherit;
+    font-family: 'Cutive Mono', monospace;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+}
+
+footer .twit:link,
+footer .twit:visited {
+    color: #00aced;
+}
+
+footer .twit:hover,
+footer .twit:active {
+    color: #0084b4;
+}
+
+footer .twit-ic {
+    position: absolute;
+    bottom: 35px;
+    left: 90%;
+    font-size: 1.5rem;
+    color: inherit;
+}

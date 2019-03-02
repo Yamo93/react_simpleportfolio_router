@@ -1,0 +1,42 @@
+form {
+    width: 200%;
+    margin-left: 12%;
+    margin-top: 40px;
+}
+
+label.name {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: 0.5px solid rgba(126, 126, 126, 0.56);
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    margin-top: 6px;
+    padding: 6px 15px;
+    outline: none;
+    border: none;
+    background-color: #108757;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 0.8rem;
+    letter-spacing: 0.8px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    color: #108757;
+    background-color: #fff;
+    border: 1px solid #108757;
+}

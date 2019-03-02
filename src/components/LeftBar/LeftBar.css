@@ -1,0 +1,27 @@
+.left-main {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+}
+
+.left-main .icon-bar {
+    width: 5%;
+    height: 90vh;
+    background-color: inherit;
+}
+
+.icon-bar .left-icon {
+    font-size: 2rem;
+    margin: 320px auto;
+    margin-left: 22%;
+    color: #108757;
+}
+
+.left-main .big-img {
+    width: 40%;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    height: 90vh;
+    background-image: url(../../img/arizona-united_states-33.jpg);
+}

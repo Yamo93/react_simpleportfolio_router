@@ -1,0 +1,79 @@
+.right-main .front-main {
+    clear: both;
+}
+
+.front-main h1 {
+    text-align: left;
+    margin-left: 12%;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    width: 200%;
+    color: #108757;
+    font-size: 2.3rem;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.front-main h2 {
+    margin-left: 12%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 200%;
+    line-height: 130%;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #108757;
+}
+
+.front-main h3 {
+    margin-left: 12%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.front-main ul {
+    margin-left: 25%;
+}
+
+.front-main p {
+    margin-left: 12%;
+    margin-top: 30px;
+    width: 200%;
+    font-size: 1.2rem;
+}
+
+.right-main footer {
+    width: 39%;
+    height: 80px;
+    margin-top: 450px;
+    margin-left: 5%;
+    background-color: inherit;
+    position: absolute;
+    bottom: -460px;
+    right: 8%;
+    border-top: 1px solid rgba(126, 126, 126, 0.44);
+}
+
+.front-main .last-p {
+    margin-bottom: 140px;
+}
+
+.right-main footer p {
+    position: absolute;
+    bottom: 35px;
+    background-color: inherit;
+    font-family: 'Cutive Mono', monospace;
+    letter-spacing: 1.5px;
+    font-size: 1.2rem;
+}
+
+.icon-bar {
+    width: 5%;
+    height: 901px;
+    background-color: inherit;
+    float: left;
+    position: fixed;
+}
